@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Seleção de Estilo de livro Favorito</title>
+</head>
+<body>
+    <center>
+        <h1>Switch Case</h1>
+
+        <script>
+            //Criar uma variável para escolhet a opção
+
+            var opcao = parseInt(prompt(`Selecione a opção que corresponde ao seu estilo de filme favorito
+            1 - Ação
+            2 - Comédia
+            3 - Drama
+            4 - Terror
+            5 - Ficção Científica
+            6 - Romance`))
+
+            switch(opcao) {
+                case 1:
+                document.write ("Seu estilo de livro favorito é: Ação")
+                break;
+                case 2:
+                document.write ("Seu estilo de livro favorito é: Comédia")
+                break;
+                case 3:
+                document.write ("Seu estilo de livro favorito é: Drama")
+                break;
+                case 4:
+                document.write ("Seu estilo de livro favorito é: Terror")
+                break;
+                case 5:
+                document.write ("Seu estilo de livro favorito é: Ficção científica")
+                break;
+                case 6:
+                document.write ("Seu estilo de livro favorito é: Romance")
+                break;
+                default:
+                document.write ("Opção inválida!")
+
+            }
+        </script>
+    </center>
+</body>
+</html>
